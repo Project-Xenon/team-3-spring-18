@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="Assets/css/bootstrap.css"/>
+  <title>Protoype CS Club Website - Registration Page</title>
+</head>
+<body>
+  <!-- Nav bar here -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: rgb(6, 136, 200);">
+    <a class="navbar-brand" href="index.html">
+      <img src="Assets/brand/ccsu-logo.png" width="45" height="45" class="d-inline-block" alt="CCSU Logo">
+      CCSU CS Club
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">GitHub Dashboard</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Discussion</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="nav-dropdown-events" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Events
+          </a>
+        <div class="dropdown-menu" aria-labelledby="nav-dropdown-events">
+          <a class="dropdown-item" href="#">Request an event</a>
+          <a class="dropdown-item" href="#">Upcoming action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Highlights</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="nav-dropdown-about" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About Us
+        </a>
+        <div class="dropdown-menu" aria-labelledby="nav-dropdown-about">
+          <a class="dropdown-item" href="#">The Club</a>
+          <a class="dropdown-item" href="#">Club Officers</a>
+          <a class="dropdown-item" href="#">Contact Us</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">CS @ CCSU</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="nav-dropdown-accounts" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Login/Register
+        </a>
+        <div class="dropdown-menu" aria-labelledby="nav-dropdown-accounts">
+          <a class="dropdown-item" href="#">Logout</a>
+          <a class="dropdown-item" href="#">Profile</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">
+            <button type="button" class="btn btn-info">
+              Alerts <span class="badge badge-light">10</span>
+              <span class="sr-only">Unread alerts</span>
+            </button>
+          </a>
+        </div>
+      </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Main Content here -->
+  <section>
+
+    <div class="container-fluid">
+      <h2>Registration Page</h2>
+        <form>
+          <div class="form-group">
+            <label for="usr">Desired Username</label>
+            <input type="text" class="form-control" id="usr" placeholder="Enter username">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Desired Password</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Re-enter Password</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Footer here -->
+</body>
+</html>
